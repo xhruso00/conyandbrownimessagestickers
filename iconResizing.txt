@@ -1,0 +1,15 @@
+sips --resampleHeightWidth 58 58 cony.png --out Messages29x29@2x.png
+sips --resampleHeightWidth 87 87 cony.png --out Messages29x29@3x.png
+sips --resampleHeightWidth 90 90 cony.png --out Messages60x45@2x.png
+sips --resampleHeightWidth 135 180 cony.png --out Messages60x45@3x.png
+
+
+sips --resampleHeightWidth 768 1024 cony.png --out Messages1024x768.png
+sips --resampleHeightWidth 90 120 cony.png --out Messages60x45@2x.png
+sips --resampleHeightWidth 135 180 cony.png --out Messages60x45@3x.png
+sips --resampleHeightWidth 100 134 cony.png --out Messages67x50@2x.png
+sips --resampleHeightWidth 110 148 cony.png --out Messages74x55@2x.png
+sips --resampleHeightWidth 40 54 cony.png --out Messages27x20@2x.png
+sips --resampleHeightWidth 60 81 cony.png --out Messages27x20@3x.png
+sips --resampleHeightWidth 48 64 cony.png --out Messages32x24@2x.png
+sips --resampleHeightWidth 72 96 cony.png --out Messages32x24@3x.png
