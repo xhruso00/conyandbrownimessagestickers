@@ -1,0 +1,83 @@
+{
+  "stickers" : [
+    {
+      "filename" : "27533213@2x.sticker"
+    },
+    {
+      "filename" : "27533228@2x.sticker"
+    },
+    {
+      "filename" : "27533223@2x.sticker"
+    },
+    {
+      "filename" : "27533222@2x.sticker"
+    },
+    {
+      "filename" : "27533231@2x.sticker"
+    },
+    {
+      "filename" : "27533214@2x.sticker"
+    },
+    {
+      "filename" : "27533229@2x.sticker"
+    },
+    {
+      "filename" : "27533221@2x.sticker"
+    },
+    {
+      "filename" : "27533211@2x.sticker"
+    },
+    {
+      "filename" : "27533216@2x.sticker"
+    },
+    {
+      "filename" : "27533220@2x.sticker"
+    },
+    {
+      "filename" : "27533226@2x.sticker"
+    },
+    {
+      "filename" : "27533230@2x.sticker"
+    },
+    {
+      "filename" : "27533224@2x.sticker"
+    },
+    {
+      "filename" : "27533208@2x.sticker"
+    },
+    {
+      "filename" : "27533212@2x.sticker"
+    },
+    {
+      "filename" : "27533218@2x.sticker"
+    },
+    {
+      "filename" : "27533217@2x.sticker"
+    },
+    {
+      "filename" : "27533219@2x.sticker"
+    },
+    {
+      "filename" : "27533209@2x.sticker"
+    },
+    {
+      "filename" : "27533215@2x.sticker"
+    },
+    {
+      "filename" : "27533225@2x.sticker"
+    },
+    {
+      "filename" : "27533210@2x.sticker"
+    },
+    {
+      "filename" : "27533227@2x.sticker"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  },
+  "properties" : {
+    "grid-size" : "regular"
+  }
+}

@@ -1,0 +1,354 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D2DED8E5202EEF5E00155775 /* Cute and Mini Brown and Cony StickerPackExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D2DED8E4202EEF5E00155775 /* Cute and Mini Brown and Cony StickerPackExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D2DED8E9202EEF5E00155775 /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = D2DED8E8202EEF5E00155775 /* Stickers.xcstickers */; };
+		D2DED8EA202EEF5E00155775 /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = D2DED8E8202EEF5E00155775 /* Stickers.xcstickers */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D2DED8E6202EEF5E00155775 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2DED8DA202EEF5E00155775 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2DED8E3202EEF5E00155775;
+			remoteInfo = "Cute and Mini Brown and Cony StickerPackExtension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D2DED8F0202EEF5E00155775 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D2DED8E5202EEF5E00155775 /* Cute and Mini Brown and Cony StickerPackExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D2DED8E0202EEF5E00155775 /* Cute and Mini Brown and Cony.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cute and Mini Brown and Cony.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2DED8E4202EEF5E00155775 /* Cute and Mini Brown and Cony StickerPackExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Cute and Mini Brown and Cony StickerPackExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2DED8E8202EEF5E00155775 /* Stickers.xcstickers */ = {isa = PBXFileReference; lastKnownFileType = folder.stickers; name = Stickers.xcstickers; path = "Cute and Mini Brown and Cony StickerPackExtension/Stickers.xcstickers"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		D2DED8D9202EEF5E00155775 = {
+			isa = PBXGroup;
+			children = (
+				D2DED8E8202EEF5E00155775 /* Stickers.xcstickers */,
+				D2DED8E1202EEF5E00155775 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D2DED8E1202EEF5E00155775 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2DED8E0202EEF5E00155775 /* Cute and Mini Brown and Cony.app */,
+				D2DED8E4202EEF5E00155775 /* Cute and Mini Brown and Cony StickerPackExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2DED8DF202EEF5E00155775 /* Cute and Mini Brown and Cony */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2DED8F1202EEF5E00155775 /* Build configuration list for PBXNativeTarget "Cute and Mini Brown and Cony" */;
+			buildPhases = (
+				D2DED8DE202EEF5E00155775 /* Resources */,
+				D2DED8F0202EEF5E00155775 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2DED8E7202EEF5E00155775 /* PBXTargetDependency */,
+			);
+			name = "Cute and Mini Brown and Cony";
+			productName = "Cute and Mini Brown and Cony";
+			productReference = D2DED8E0202EEF5E00155775 /* Cute and Mini Brown and Cony.app */;
+			productType = "com.apple.product-type.application.messages";
+		};
+		D2DED8E3202EEF5E00155775 /* Cute and Mini Brown and Cony StickerPackExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2DED8ED202EEF5E00155775 /* Build configuration list for PBXNativeTarget "Cute and Mini Brown and Cony StickerPackExtension" */;
+			buildPhases = (
+				D2DED8E2202EEF5E00155775 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cute and Mini Brown and Cony StickerPackExtension";
+			productName = "Cute and Mini Brown and Cony StickerPackExtension";
+			productReference = D2DED8E4202EEF5E00155775 /* Cute and Mini Brown and Cony StickerPackExtension.appex */;
+			productType = "com.apple.product-type.app-extension.messages-sticker-pack";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2DED8DA202EEF5E00155775 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Marek Hrušovský";
+				TargetAttributes = {
+					D2DED8DF202EEF5E00155775 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					D2DED8E3202EEF5E00155775 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D2DED8DD202EEF5E00155775 /* Build configuration list for PBXProject "Cute and Mini Brown and Cony" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D2DED8D9202EEF5E00155775;
+			productRefGroup = D2DED8E1202EEF5E00155775 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2DED8DF202EEF5E00155775 /* Cute and Mini Brown and Cony */,
+				D2DED8E3202EEF5E00155775 /* Cute and Mini Brown and Cony StickerPackExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2DED8DE202EEF5E00155775 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2DED8EA202EEF5E00155775 /* Stickers.xcstickers in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2DED8E2202EEF5E00155775 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2DED8E9202EEF5E00155775 /* Stickers.xcstickers in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D2DED8E7202EEF5E00155775 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2DED8E3202EEF5E00155775 /* Cute and Mini Brown and Cony StickerPackExtension */;
+			targetProxy = D2DED8E6202EEF5E00155775 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D2DED8EB202EEF5E00155775 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D2DED8EC202EEF5E00155775 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2DED8EE202EEF5E00155775 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BXQ2LHBD6T;
+				INFOPLIST_FILE = "Cute and Mini Brown and Cony StickerPackExtension/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hrubasko.Cute-and-Mini-Brown-and-Cony.StickerPackExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D2DED8EF202EEF5E00155775 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BXQ2LHBD6T;
+				INFOPLIST_FILE = "Cute and Mini Brown and Cony StickerPackExtension/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hrubasko.Cute-and-Mini-Brown-and-Cony.StickerPackExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D2DED8F2202EEF5E00155775 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BXQ2LHBD6T;
+				INFOPLIST_FILE = "Cute and Mini Brown and Cony/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hrubasko.Cute-and-Mini-Brown-and-Cony";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D2DED8F3202EEF5E00155775 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BXQ2LHBD6T;
+				INFOPLIST_FILE = "Cute and Mini Brown and Cony/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hrubasko.Cute-and-Mini-Brown-and-Cony";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2DED8DD202EEF5E00155775 /* Build configuration list for PBXProject "Cute and Mini Brown and Cony" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2DED8EB202EEF5E00155775 /* Debug */,
+				D2DED8EC202EEF5E00155775 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2DED8ED202EEF5E00155775 /* Build configuration list for PBXNativeTarget "Cute and Mini Brown and Cony StickerPackExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2DED8EE202EEF5E00155775 /* Debug */,
+				D2DED8EF202EEF5E00155775 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2DED8F1202EEF5E00155775 /* Build configuration list for PBXNativeTarget "Cute and Mini Brown and Cony" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2DED8F2202EEF5E00155775 /* Debug */,
+				D2DED8F3202EEF5E00155775 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2DED8DA202EEF5E00155775 /* Project object */;
+}
